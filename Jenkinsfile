@@ -8,7 +8,7 @@ pipeline {
     }
     stage ('mcn build') {
       steps {
-        bat 'mvn clean'
+        bat 'mvn clean test'
       }
     }
   }
