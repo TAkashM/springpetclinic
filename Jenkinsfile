@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-    maven 'maven
+    maven 'maven'
   }
   stages {
     stage ('scm') {
@@ -9,7 +9,7 @@ pipeline {
         git 'https://github.com/1234shaik/spring-framework-petclinic.git'
       }
     }
-    stage ('mcn build') {
+    stage ('maven build') {
       steps {
         bat 'mvn clean compile'
       }
