@@ -1,23 +1,23 @@
-/* pipeline {
+pipeline {
   agent any
-  /*tools {
+  tools {
     maven 'maven'
-  }*/
-  /* stages {
+  }
+   stages {
     stage ('scm') {
       steps {
-        git 'https://github.com/1234shaik/spring-framework-petclinic.git'
+        git ' https://github.com/1234shaik/spring-framework-petclinic.git '
       }
-    } */
-    /* stage ('maven build') {
+    } 
+     stage ('maven build') {
       steps {
-        bat 'mvn clean compile'
+        bat ' mvn clean compile '
       }
-    } */
- /* }
-} */
+    } 
+  }
+} 
 
-pipeline {
+/* pipeline {
     agent any
     stages {
         stage ("scm") {
@@ -26,4 +26,4 @@ pipeline {
             }
         }
     }
-}
+} */
