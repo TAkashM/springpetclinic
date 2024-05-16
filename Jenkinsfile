@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                git 'https://github.com/1234shaik/springpetclinic.git'
+              git branch: 'main', url: 'https://github.com/1234shaik/springpetclinic.git'
             }
         }
         /* stage ('Maven Build') {
