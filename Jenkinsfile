@@ -3,14 +3,14 @@ pipeline {
     stages {
         stage ('SCM') {
             steps {
-                git 'https://github.com/1234shaik/spring-framework-petclinic.git'
+                git ' https://github.com/1234shaik/spring-framework-petclinic.git '
             }
         }
-        stage ('Maven Build') {
+        /* stage ('Maven Build') {
             steps {
                 bat 'mvn clean'
             }
-        }
+        } */
     }
 }
 
