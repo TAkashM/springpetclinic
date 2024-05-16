@@ -6,11 +6,11 @@ pipeline {
               git branch: 'main', url: 'https://github.com/1234shaik/springpetclinic.git'
             }
         }
-        /* stage ('Maven Build') {
+        stage ('Maven Build') {
             steps {
                 bat 'mvn clean'
             }
-        } */
+        }
     }
 }
 
