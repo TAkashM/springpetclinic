@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('Maven Build') {
             steps {
-                bat ' mvn -f pom.xml clean install '
+                bat ' mvn install '
             }
         }
     }
