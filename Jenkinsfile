@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage ('SCM') {
+        stage('SCM') {
             steps {
-                git ' https://github.com/1234shaik/springpetclinic.git '
+                git 'https://github.com/1234shaik/springpetclinic.git'
             }
         }
         /* stage ('Maven Build') {
